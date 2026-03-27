@@ -1,3 +1,5 @@
+## WILLIAM ANGULO --- MARTIN TORRES
+
 # Dataset sintético de deserción estudiantil
 
 Este dataset sintético simula información de estudiantes universitarios para predecir si desertan o no durante el primer año académico.
