@@ -1,0 +1,501 @@
+id_estudiante,edad,genero,lugar_origen,promedio_bachillerato,puntaje_admision,nota_primer_semestre,nivel_socioeconomico,beca,prestamo,ayuda_financiera,desercion
+1,22.0,M,Santa Marta,2.83,206.0,3.32,5,no,si,si,si
+2,30.0,M,Monteria,2.87,354.0,2.98,2,no,si,si,si
+3,26.0,F,Otra,2.82,291.0,2.28,2,no,si,no,si
+4,23.0,F,Santa Marta,3.91,213.0,3.26,5,no,no,si,si
+5,22.0,F,Santa Marta,4.05,428.0,2.06,3,si,si,no,no
+6,34.0,M,Barranquilla,2.86,285.0,3.95,5,si,no,si,si
+7,26.0,M,Cartagena,2.7,332.0,2.63,4,si,si,si,no
+8,26.0,F,Cartagena,3.48,382.0,3.16,5,no,si,no,no
+9,19.0,F,Otra,2.87,261.0,3.23,3,no,si,si,no
+10,23.0,M,Cartagena,3.58,418.0,2.79,4,no,si,no,si
+11,18.0,M,Monteria,3.32,445.0,3.47,1,si,si,si,no
+12,17.0,F,Cartagena,2.29,429.0,,1,no,si,si,si
+13,27.0,F,Otra,4.13,278.0,3.7,3,no,no,no,si
+14,21.0,M,Cartagena,4.28,348.0,1.92,5,si,si,no,si
+15,17.0,F,Monteria,2.83,337.0,3.1,2,no,si,no,no
+16,16.0,F,Barranquilla,2.97,264.0,4.55,3,si,si,si,no
+17,27.0,F,Otra,3.37,212.0,2.2,4,si,si,si,si
+18,27.0,M,Barranquilla,3.4,412.0,2.46,4,no,no,si,si
+19,32.0,M,Barranquilla,3.6,441.0,3.41,1,no,si,no,si
+20,25.0,M,Barranquilla,4.41,412.0,3.14,4,no,si,no,no
+21,31.0,M,Santa Marta,3.09,380.0,3.28,3,si,si,no,no
+22,30.0,M,Santa Marta,2.72,372.0,3.39,4,si,si,si,no
+23,30.0,M,Barranquilla,2.37,359.0,,3,si,no,si,no
+24,34.0,M,Otra,2.76,363.0,3.89,2,no,si,no,si
+25,27.0,F,Monteria,3.18,387.0,3.33,1,no,no,si,si
+26,18.0,F,Monteria,4.28,390.0,2.81,4,no,si,no,si
+27,20.0,F,Cartagena,2.89,455.0,3.54,3,no,no,si,no
+28,34.0,F,Otra,3.33,382.0,4.52,5,si,no,si,no
+29,22.0,F,Santa Marta,3.19,316.0,2.89,1,si,si,no,si
+30,24.0,F,Barranquilla,3.91,481.0,2.22,2,si,si,si,no
+31,22.0,F,Cartagena,4.72,395.0,3.89,3,si,no,si,no
+32,33.0,M,Monteria,2.88,233.0,2.9,2,no,no,no,si
+33,19.0,M,Santa Marta,2.91,251.0,1.26,2,no,si,no,si
+34,29.0,F,Santa Marta,3.83,311.0,3.68,4,no,no,si,no
+35,33.0,F,Barranquilla,3.61,451.0,2.57,4,si,no,no,si
+36,24.0,M,Monteria,4.31,281.0,2.93,3,si,no,si,no
+37,17.0,F,Otra,3.55,431.0,3.27,5,no,si,no,si
+38,30.0,F,Santa Marta,2.98,,3.15,3,no,no,si,no
+39,22.0,M,Barranquilla,,432.0,3.57,5,si,no,si,no
+40,27.0,F,Otra,3.87,420.0,2.65,2,no,no,no,si
+41,23.0,M,Monteria,3.69,241.0,3.41,1,si,si,si,si
+42,30.0,F,Santa Marta,3.5,220.0,2.79,3,si,si,si,no
+43,18.0,M,Otra,3.84,241.0,3.59,3,si,no,no,si
+44,29.0,M,Otra,3.9,312.0,3.49,5,no,si,no,si
+45,32.0,M,Otra,4.03,304.0,2.25,2,no,no,si,si
+46,19.0,F,Santa Marta,3.59,391.0,3.87,2,si,si,no,si
+47,33.0,M,Santa Marta,3.1,216.0,2.57,5,no,si,no,si
+48,23.0,F,Cartagena,3.29,319.0,3.65,2,si,no,si,no
+49,19.0,F,Monteria,3.92,328.0,3.29,4,si,si,si,no
+50,17.0,F,Barranquilla,,329.0,4.47,1,si,si,no,si
+51,21.0,F,Otra,3.42,259.0,2.82,3,si,si,no,si
+52,25.0,M,Cartagena,2.96,247.0,2.72,1,no,no,no,si
+53,,M,Barranquilla,3.22,228.0,2.98,3,si,si,si,no
+54,33.0,F,Cartagena,3.97,,2.76,4,si,si,si,si
+55,27.0,F,Santa Marta,3.31,209.0,3.64,2,no,no,si,no
+56,52.0,M,Otra,3.23,441.0,1.71,5,si,si,si,si
+57,25.0,F,Barranquilla,2.38,431.0,2.16,4,si,si,si,no
+58,19.0,M,Barranquilla,3.65,476.0,2.15,1,no,si,si,si
+59,29.0,F,Barranquilla,3.59,483.0,3.76,5,no,si,si,no
+60,31.0,F,Barranquilla,4.5,402.0,4.37,2,no,si,no,no
+61,30.0,M,Barranquilla,3.02,446.0,2.92,4,si,no,no,no
+62,23.0,F,Cartagena,3.33,489.0,2.86,5,no,no,si,no
+63,29.0,M,Otra,3.35,463.0,3.06,4,no,si,si,no
+64,23.0,F,Santa Marta,4.15,413.0,3.93,4,si,si,si,no
+65,31.0,F,Santa Marta,3.14,399.0,2.26,2,si,si,no,si
+66,28.0,F,Santa Marta,3.37,278.0,3.19,3,si,no,si,no
+67,33.0,M,Santa Marta,3.56,372.0,3.78,5,si,no,no,no
+68,30.0,F,Cartagena,3.31,268.0,3.4,2,si,si,no,si
+69,28.0,F,Monteria,2.93,286.0,3.15,4,no,si,no,si
+70,24.0,F,Otra,3.32,300.0,3.8,2,no,no,no,si
+71,30.0,F,Barranquilla,3.84,207.0,0.84,3,no,si,no,si
+72,28.0,M,Monteria,2.58,399.0,3.54,5,si,no,si,no
+73,16.0,M,Santa Marta,3.28,286.0,2.48,3,si,no,si,si
+74,22.0,F,Monteria,2.78,242.0,1.54,1,si,si,no,si
+75,24.0,M,Otra,3.92,308.0,3.41,5,no,no,si,si
+76,16.0,F,Barranquilla,2.29,351.0,4.1,3,no,si,no,si
+77,27.0,F,Barranquilla,2.86,216.0,2.89,4,si,si,no,si
+78,23.0,F,Otra,3.43,332.0,3.76,5,no,si,si,si
+79,26.0,M,Otra,4.14,,4.29,5,si,si,si,no
+80,34.0,M,Santa Marta,3.16,476.0,4.05,2,no,si,si,si
+81,32.0,M,Barranquilla,2.87,431.0,4.31,4,no,si,si,si
+82,23.0,M,Monteria,4.33,427.0,3.59,1,no,no,si,si
+83,18.0,M,Cartagena,2.33,338.0,3.06,3,si,no,no,si
+84,18.0,M,Cartagena,1.88,410.0,1.72,2,no,no,si,si
+85,16.0,M,Otra,3.46,227.0,2.8,3,no,no,si,si
+86,20.0,M,Santa Marta,2.9,250.0,2.33,1,si,si,si,si
+87,25.0,M,Cartagena,2.59,460.0,4.74,1,no,no,no,si
+88,22.0,F,Barranquilla,3.63,460.0,2.86,5,si,no,si,no
+89,24.0,M,Otra,3.35,207.0,3.1,1,si,no,no,si
+90,22.0,M,Monteria,2.86,337.0,3.44,3,si,si,si,no
+91,,M,Otra,2.43,237.0,3.03,4,si,no,si,no
+92,23.0,M,Monteria,3.72,310.0,4.36,4,si,si,no,no
+93,27.0,M,Otra,3.59,419.0,2.5,5,no,no,si,no
+94,17.0,M,Otra,3.14,,3.16,3,si,si,si,no
+95,16.0,M,Otra,,335.0,2.41,3,si,si,no,no
+96,31.0,M,Monteria,2.56,455.0,1.94,1,si,no,si,no
+97,20.0,M,Monteria,2.28,248.0,2.51,3,si,si,no,si
+98,18.0,M,Otra,2.78,491.0,2.97,2,no,si,no,si
+99,27.0,M,Cartagena,3.17,277.0,2.66,1,si,no,no,si
+100,23.0,F,Santa Marta,3.35,304.0,2.45,2,no,no,no,si
+101,18.0,F,Santa Marta,3.06,368.0,1.87,5,si,no,no,no
+102,16.0,M,Santa Marta,3.41,416.0,2.93,4,no,si,si,no
+103,18.0,M,Monteria,2.45,318.0,1.8,5,si,si,si,si
+104,20.0,F,Monteria,4.07,389.0,3.61,4,si,si,si,no
+105,30.0,M,Cartagena,3.15,454.0,3.07,5,no,no,no,si
+106,29.0,F,Santa Marta,3.87,465.0,1.83,3,si,si,no,si
+107,18.0,F,Santa Marta,3.41,348.0,2.75,2,no,si,no,si
+108,,F,Otra,3.47,363.0,2.4,4,si,si,no,no
+109,20.0,F,Monteria,3.54,339.0,3.26,1,no,si,si,si
+110,29.0,F,Santa Marta,3.47,457.0,4.07,2,si,si,si,no
+111,22.0,M,Cartagena,3.59,468.0,1.5,1,si,si,no,si
+112,24.0,F,Cartagena,4.0,380.0,3.09,2,no,si,no,no
+113,30.0,M,Santa Marta,3.32,359.0,2.87,2,si,no,si,no
+114,30.0,M,Monteria,3.63,487.0,3.54,5,si,no,no,no
+115,25.0,F,Cartagena,3.15,487.0,3.17,4,si,no,no,no
+116,28.0,F,Otra,4.06,425.0,2.4,4,si,si,no,si
+117,34.0,M,Cartagena,2.79,210.0,2.74,2,si,si,si,si
+118,22.0,F,Barranquilla,4.28,209.0,2.36,3,si,no,si,no
+119,32.0,F,Barranquilla,3.18,470.0,3.86,3,no,si,no,no
+120,19.0,M,Monteria,2.34,472.0,3.02,1,no,no,si,no
+121,20.0,M,Santa Marta,3.28,382.0,4.52,1,no,si,no,si
+122,22.0,F,Monteria,2.79,352.0,2.95,5,si,si,no,no
+123,28.0,M,Monteria,3.7,323.0,2.43,2,no,no,si,si
+124,30.0,F,Monteria,2.81,313.0,1.79,1,si,no,no,si
+125,26.0,F,Monteria,2.93,477.0,1.56,1,si,no,no,si
+126,19.0,F,Otra,2.07,412.0,1.73,2,si,no,si,no
+127,28.0,M,Otra,2.93,371.0,3.21,5,si,no,no,si
+128,22.0,M,Cartagena,1.75,487.0,3.41,1,no,si,no,si
+129,34.0,M,Barranquilla,2.25,373.0,1.74,5,si,si,no,no
+130,17.0,M,Monteria,3.66,312.0,3.72,4,no,si,si,si
+131,25.0,M,Cartagena,3.67,321.0,2.61,5,si,no,no,si
+132,28.0,F,Barranquilla,3.46,231.0,3.12,3,no,no,si,no
+133,21.0,F,Santa Marta,2.62,421.0,4.29,3,no,no,no,si
+134,27.0,F,Otra,3.17,318.0,3.72,5,no,no,no,si
+135,27.0,F,Barranquilla,3.2,238.0,2.79,3,no,no,no,si
+136,26.0,M,Santa Marta,2.5,467.0,2.29,4,no,no,no,no
+137,22.0,F,Barranquilla,4.1,432.0,1.28,2,no,si,si,si
+138,16.0,M,Otra,,217.0,2.42,3,si,si,si,no
+139,16.0,F,Otra,3.07,348.0,2.83,3,no,si,no,no
+140,28.0,M,Cartagena,3.22,348.0,2.21,5,si,si,no,no
+141,24.0,M,Monteria,3.33,325.0,2.89,4,no,si,no,si
+142,18.0,F,Barranquilla,1.97,437.0,3.06,2,si,no,no,si
+143,22.0,F,Barranquilla,,334.0,2.82,5,no,no,no,no
+144,21.0,F,Santa Marta,2.79,350.0,2.48,5,no,no,no,si
+145,23.0,F,Otra,2.6,435.0,3.13,4,si,no,no,no
+146,24.0,M,Barranquilla,3.03,423.0,3.35,2,no,no,no,si
+147,20.0,F,Otra,4.28,402.0,2.13,4,no,no,si,si
+148,16.0,F,Barranquilla,3.58,455.0,4.13,2,no,si,si,si
+149,34.0,M,Cartagena,2.86,285.0,2.92,4,si,no,si,no
+150,25.0,F,Monteria,3.54,349.0,3.02,5,no,no,no,si
+151,27.0,F,Barranquilla,4.04,434.0,3.57,5,si,no,no,si
+152,30.0,F,Otra,3.75,221.0,3.19,1,no,no,no,si
+153,24.0,F,Cartagena,3.24,484.0,3.76,3,no,si,si,no
+154,32.0,F,Barranquilla,2.81,468.0,3.23,4,si,si,no,si
+155,32.0,M,Santa Marta,3.62,457.0,2.51,1,no,no,si,si
+156,27.0,F,Monteria,3.44,228.0,3.29,3,no,si,no,si
+157,22.0,F,Barranquilla,3.74,412.0,2.09,4,si,si,si,si
+158,17.0,F,Cartagena,3.58,482.0,3.09,2,no,no,si,no
+159,18.0,F,Santa Marta,3.83,249.0,2.97,3,si,no,si,no
+160,32.0,F,Cartagena,2.88,294.0,2.83,5,si,no,no,no
+161,20.0,M,Cartagena,3.99,287.0,2.9,1,si,no,si,no
+162,32.0,F,Santa Marta,3.32,243.0,1.49,3,no,no,no,si
+163,32.0,M,Cartagena,4.45,477.0,2.56,3,si,si,no,si
+164,32.0,M,Santa Marta,2.79,370.0,3.07,5,si,no,no,no
+165,17.0,F,Barranquilla,4.24,388.0,3.13,4,no,no,no,si
+166,17.0,F,Santa Marta,3.32,383.0,2.18,2,si,no,no,no
+167,20.0,F,Santa Marta,2.81,202.0,4.01,5,no,si,si,si
+168,16.0,F,Monteria,2.91,390.0,2.31,2,no,no,no,si
+169,16.0,M,Santa Marta,3.01,317.0,3.78,4,no,no,no,no
+170,34.0,F,Santa Marta,3.45,218.0,3.34,3,no,no,no,no
+171,17.0,F,Barranquilla,3.51,222.0,2.48,2,si,si,no,si
+172,27.0,F,Monteria,2.86,229.0,4.42,1,si,no,no,si
+173,21.0,F,Otra,3.19,494.0,2.05,1,si,no,si,si
+174,19.0,F,Barranquilla,4.49,307.0,3.74,5,si,no,si,no
+175,26.0,F,Barranquilla,4.24,480.0,3.8,4,si,si,no,si
+176,32.0,M,Otra,3.46,327.0,2.46,5,no,no,si,si
+177,21.0,M,Santa Marta,3.22,428.0,4.11,5,si,no,si,no
+178,20.0,F,Cartagena,3.27,310.0,2.8,5,si,no,no,no
+179,17.0,F,Monteria,3.57,335.0,3.23,1,si,si,si,no
+180,21.0,F,Cartagena,2.59,385.0,3.21,1,no,no,no,si
+181,26.0,M,Otra,3.05,343.0,2.89,5,no,no,si,no
+182,31.0,F,Barranquilla,2.2,271.0,3.65,1,si,no,si,si
+183,31.0,M,Barranquilla,3.44,328.0,3.63,4,no,si,si,no
+184,16.0,F,Monteria,3.59,460.0,1.6,5,si,si,no,si
+185,24.0,F,Barranquilla,2.91,202.0,4.04,1,si,no,si,si
+186,21.0,F,Barranquilla,4.14,303.0,1.67,2,no,si,si,si
+187,31.0,F,Monteria,2.46,423.0,3.83,5,no,si,no,si
+188,18.0,M,Monteria,2.32,209.0,3.9,5,si,si,no,no
+189,19.0,M,Otra,3.33,430.0,2.13,4,si,no,si,si
+190,34.0,F,Barranquilla,3.83,418.0,,3,no,no,no,si
+191,18.0,F,Barranquilla,4.21,265.0,2.12,3,si,si,si,si
+192,34.0,M,Otra,2.92,311.0,2.83,4,no,si,si,si
+193,22.0,M,Santa Marta,3.85,212.0,2.75,4,si,si,no,si
+194,,M,Santa Marta,3.18,285.0,3.62,4,no,no,no,si
+195,16.0,M,Santa Marta,3.1,433.0,4.05,3,si,no,no,no
+196,23.0,F,Otra,3.73,289.0,4.12,4,si,si,si,no
+197,22.0,M,Barranquilla,3.59,253.0,2.55,1,no,si,no,si
+198,33.0,F,Otra,2.25,211.0,2.83,5,si,si,si,no
+199,23.0,M,Otra,4.09,408.0,1.65,5,si,si,no,no
+200,16.0,M,Santa Marta,4.03,213.0,2.36,2,no,no,si,si
+201,26.0,M,Cartagena,2.82,320.0,3.77,2,si,si,no,si
+202,33.0,M,Barranquilla,3.44,219.0,4.29,5,si,no,si,no
+203,25.0,M,Santa Marta,3.5,274.0,2.01,1,si,si,no,si
+204,18.0,F,Cartagena,3.36,442.0,2.53,3,no,si,si,si
+205,22.0,F,Cartagena,2.87,422.0,2.98,3,no,si,no,no
+206,31.0,M,Monteria,2.8,269.0,3.22,1,no,si,no,si
+207,31.0,M,Barranquilla,3.18,410.0,2.35,3,si,si,si,si
+208,32.0,F,Cartagena,3.9,300.0,3.34,4,si,no,no,si
+209,17.0,M,Santa Marta,3.53,385.0,2.62,5,si,si,si,no
+210,16.0,M,Monteria,2.98,331.0,2.99,5,si,si,si,no
+211,31.0,F,Barranquilla,3.66,310.0,3.44,1,no,si,no,si
+212,27.0,M,Otra,1.49,331.0,3.01,3,si,no,si,no
+213,20.0,M,Santa Marta,3.89,219.0,2.65,2,si,no,no,si
+214,20.0,F,Cartagena,2.16,223.0,2.91,2,si,no,no,no
+215,24.0,F,Cartagena,2.98,426.0,2.93,3,no,no,si,si
+216,24.0,F,Santa Marta,2.53,353.0,2.7,2,si,si,no,no
+217,18.0,M,Cartagena,2.42,492.0,2.79,1,si,si,si,no
+218,34.0,F,Monteria,3.9,429.0,4.28,1,si,si,si,no
+219,50.0,F,Barranquilla,2.92,401.0,3.45,3,si,no,no,no
+220,31.0,F,Monteria,3.41,237.0,2.76,2,si,si,no,no
+221,18.0,F,Cartagena,3.17,459.0,3.56,1,no,si,si,no
+222,16.0,F,Otra,3.49,387.0,2.73,1,si,no,si,si
+223,26.0,F,Barranquilla,3.25,256.0,3.94,4,si,no,no,no
+224,32.0,M,Barranquilla,2.43,219.0,3.3,4,si,no,no,no
+225,23.0,M,Santa Marta,3.8,472.0,2.91,1,si,si,no,no
+226,19.0,F,Santa Marta,2.9,318.0,3.36,3,si,si,no,si
+227,21.0,F,Otra,2.27,270.0,1.74,5,si,no,si,no
+228,23.0,F,Barranquilla,2.94,203.0,2.1,5,si,si,no,si
+229,18.0,M,Otra,4.1,420.0,2.04,1,si,no,si,no
+230,31.0,M,Santa Marta,3.71,213.0,3.11,1,si,no,si,si
+231,18.0,M,Santa Marta,2.99,202.0,4.39,1,si,si,no,si
+232,33.0,M,Barranquilla,2.99,415.0,4.79,3,no,no,si,no
+233,29.0,M,Monteria,3.01,428.0,,4,no,no,no,si
+234,33.0,M,Cartagena,4.45,385.0,3.4,1,no,no,si,no
+235,17.0,M,Santa Marta,3.43,254.0,,1,no,si,no,si
+236,18.0,M,Santa Marta,3.46,453.0,2.57,2,si,no,si,no
+237,31.0,M,Monteria,3.82,223.0,2.37,3,no,no,si,si
+238,24.0,F,Monteria,3.34,361.0,2.5,1,no,no,no,si
+239,19.0,F,Otra,3.04,357.0,2.87,2,si,no,no,no
+240,45.0,F,Otra,3.08,281.0,2.62,5,no,no,si,no
+241,19.0,F,Cartagena,3.16,358.0,1.42,1,no,no,si,si
+242,16.0,M,Cartagena,3.18,387.0,3.6,1,si,no,no,si
+243,29.0,M,Barranquilla,3.64,259.0,2.14,2,si,si,si,si
+244,31.0,F,Otra,3.23,410.0,3.19,3,si,si,no,no
+245,23.0,M,Santa Marta,3.64,351.0,4.66,1,no,no,si,no
+246,22.0,F,Otra,3.15,308.0,2.26,5,no,si,no,si
+247,18.0,M,Santa Marta,3.25,275.0,0.98,1,si,si,si,si
+248,32.0,F,Monteria,2.0,229.0,2.77,5,si,no,no,no
+249,16.0,M,Otra,3.75,316.0,3.88,4,no,si,no,si
+250,31.0,M,Monteria,3.41,50.0,4.57,4,si,no,si,no
+251,27.0,F,Cartagena,3.8,218.0,2.02,5,no,no,no,si
+252,34.0,M,Cartagena,1.46,372.0,3.4,3,si,no,si,no
+253,29.0,F,Barranquilla,4.45,427.0,2.63,1,si,no,no,si
+254,21.0,F,Otra,3.12,382.0,2.92,1,no,no,no,no
+255,21.0,F,Monteria,,312.0,5.0,4,si,si,no,no
+256,28.0,F,Santa Marta,2.58,382.0,1.8,5,si,no,si,no
+257,34.0,M,Cartagena,3.57,345.0,3.2,1,si,si,no,no
+258,23.0,M,Cartagena,2.57,315.0,3.37,1,no,no,si,si
+259,17.0,M,Santa Marta,2.83,312.0,3.87,3,si,no,no,no
+260,16.0,F,Monteria,4.35,450.0,3.08,2,si,no,si,no
+261,30.0,M,Monteria,3.09,450.0,3.25,4,si,si,si,no
+262,16.0,F,Otra,3.33,,2.69,4,si,no,si,no
+263,20.0,M,Otra,3.72,360.0,3.22,2,si,no,no,si
+264,31.0,M,Barranquilla,3.5,397.0,2.73,1,si,no,si,si
+265,,M,Cartagena,3.29,459.0,3.5,3,no,no,no,si
+266,19.0,F,Otra,3.42,347.0,2.7,3,no,si,si,si
+267,18.0,M,Monteria,4.64,439.0,3.3,4,si,no,si,si
+268,32.0,M,Santa Marta,3.17,246.0,2.98,3,no,si,si,no
+269,32.0,F,Monteria,3.32,397.0,3.9,2,no,no,si,no
+270,,M,Cartagena,3.83,246.0,2.96,1,si,si,no,si
+271,29.0,F,Monteria,3.86,277.0,1.58,2,no,si,si,si
+272,21.0,M,Barranquilla,3.91,323.0,4.01,5,no,no,si,si
+273,18.0,F,Cartagena,3.58,274.0,2.28,4,no,no,no,no
+274,24.0,F,Santa Marta,2.51,336.0,2.48,3,no,si,si,si
+275,20.0,M,Barranquilla,4.18,289.0,2.52,5,no,no,si,si
+276,32.0,F,Cartagena,2.51,260.0,4.1,3,no,no,si,si
+277,29.0,F,Santa Marta,3.38,337.0,1.29,1,no,no,si,si
+278,18.0,F,Barranquilla,2.75,249.0,5.0,1,no,si,no,si
+279,16.0,F,Barranquilla,3.16,458.0,3.84,1,si,no,no,no
+280,16.0,F,Cartagena,3.4,306.0,3.18,3,si,no,si,no
+281,18.0,F,Otra,3.39,312.0,2.96,5,no,no,no,si
+282,33.0,M,Barranquilla,3.45,453.0,3.23,1,no,si,no,si
+283,25.0,F,Barranquilla,4.17,317.0,3.42,5,si,no,si,no
+284,18.0,F,Santa Marta,3.47,397.0,3.52,3,no,si,no,no
+285,23.0,M,Monteria,3.05,250.0,3.44,5,no,no,si,si
+286,29.0,M,Cartagena,3.78,444.0,3.07,3,si,si,no,no
+287,33.0,M,Cartagena,3.91,234.0,2.84,3,si,no,no,si
+288,30.0,M,Otra,2.46,268.0,2.88,4,si,no,no,no
+289,17.0,M,Otra,3.56,248.0,2.84,3,no,si,si,si
+290,25.0,M,Cartagena,3.62,273.0,3.91,3,no,si,no,no
+291,17.0,M,Otra,3.02,391.0,3.47,2,si,si,si,si
+292,32.0,F,Santa Marta,4.03,460.0,0.65,1,si,no,si,no
+293,23.0,F,Cartagena,3.11,269.0,3.52,4,no,no,no,si
+294,16.0,M,Otra,3.28,289.0,3.16,4,si,no,si,no
+295,24.0,F,Cartagena,3.1,459.0,2.99,4,no,no,no,si
+296,26.0,F,Monteria,3.21,325.0,2.69,2,no,si,si,si
+297,31.0,F,Barranquilla,2.54,430.0,3.9,3,si,no,si,no
+298,22.0,M,Cartagena,2.34,494.0,3.76,1,si,no,no,si
+299,25.0,M,Barranquilla,4.16,,2.38,5,no,no,no,si
+300,18.0,F,Otra,2.69,479.0,3.33,3,si,no,no,no
+301,33.0,M,Barranquilla,,299.0,2.22,2,si,no,no,si
+302,28.0,F,Cartagena,1.91,496.0,1.9,3,si,no,si,no
+303,22.0,F,Monteria,2.82,381.0,2.5,3,si,no,si,no
+304,19.0,F,Otra,2.41,373.0,3.69,2,no,si,si,si
+305,28.0,F,Cartagena,4.19,387.0,3.76,4,no,no,no,no
+306,16.0,M,Otra,3.81,256.0,3.41,4,no,no,si,no
+307,23.0,M,Santa Marta,2.79,230.0,3.58,1,no,no,no,si
+308,29.0,M,Barranquilla,4.55,283.0,3.41,1,si,no,si,no
+309,31.0,F,Santa Marta,3.79,351.0,2.49,4,si,si,no,si
+310,29.0,M,Cartagena,3.01,235.0,3.35,5,no,si,si,si
+311,27.0,F,Monteria,1.7,412.0,3.64,3,no,si,si,si
+312,34.0,M,Otra,4.57,305.0,3.6,5,si,si,no,si
+313,30.0,F,Barranquilla,2.37,419.0,3.95,3,no,si,si,no
+314,17.0,F,Otra,2.21,362.0,3.57,4,no,si,no,no
+315,17.0,F,Cartagena,3.81,419.0,3.28,1,si,no,si,no
+316,34.0,M,Otra,4.66,469.0,3.86,1,no,si,si,si
+317,32.0,M,Barranquilla,4.03,319.0,2.98,5,si,si,no,no
+318,25.0,M,Cartagena,3.54,381.0,2.29,1,si,no,no,si
+319,21.0,M,Otra,3.56,305.0,2.87,4,no,si,si,si
+320,30.0,F,Monteria,3.71,416.0,2.4,5,si,no,si,no
+321,60.0,M,Cartagena,3.66,404.0,2.46,3,no,no,si,no
+322,20.0,M,Cartagena,3.37,269.0,2.88,1,si,si,si,si
+323,16.0,F,Monteria,3.26,243.0,2.37,2,no,no,si,no
+324,23.0,F,Santa Marta,3.16,427.0,2.75,1,no,si,si,si
+325,27.0,F,Barranquilla,2.75,383.0,1.49,3,no,si,no,no
+326,27.0,M,Santa Marta,3.03,306.0,3.17,5,si,no,no,no
+327,,F,Otra,2.18,900.0,3.0,3,si,no,no,no
+328,22.0,F,Monteria,3.14,449.0,2.35,2,no,si,si,no
+329,19.0,F,Santa Marta,2.61,220.0,3.53,4,si,no,si,no
+330,21.0,M,Cartagena,2.54,395.0,3.75,1,no,no,si,no
+331,28.0,F,Otra,3.31,377.0,1.71,5,no,si,no,si
+332,30.0,M,Otra,4.04,206.0,2.39,4,si,si,no,no
+333,18.0,M,Santa Marta,3.75,269.0,2.38,3,no,no,si,no
+334,23.0,F,Santa Marta,2.26,326.0,2.25,5,si,si,si,no
+335,31.0,F,Monteria,2.61,359.0,3.66,4,no,si,no,no
+336,28.0,M,Barranquilla,3.76,447.0,2.84,5,si,si,no,no
+337,33.0,F,Santa Marta,2.61,402.0,2.79,2,no,si,no,no
+338,25.0,F,Santa Marta,3.07,347.0,1.4,2,no,si,si,si
+339,34.0,M,Cartagena,3.53,342.0,3.51,1,si,si,si,no
+340,32.0,M,Otra,2.62,398.0,2.01,1,no,si,si,si
+341,34.0,F,Barranquilla,3.26,353.0,,2,no,no,no,si
+342,20.0,M,Cartagena,2.4,341.0,3.22,5,si,si,no,no
+343,24.0,F,Monteria,2.84,364.0,4.09,2,no,no,si,no
+344,27.0,F,Monteria,3.39,220.0,1.95,1,si,no,si,no
+345,16.0,F,Santa Marta,2.24,281.0,0.58,2,no,no,no,si
+346,,M,Santa Marta,3.46,268.0,3.15,2,si,si,si,no
+347,30.0,F,Monteria,3.19,330.0,4.44,5,no,si,no,si
+348,17.0,F,Santa Marta,3.53,286.0,3.99,4,no,no,no,no
+349,31.0,F,Barranquilla,3.33,417.0,3.17,1,no,si,si,si
+350,23.0,M,Santa Marta,4.02,360.0,2.61,5,si,no,no,si
+351,28.0,M,Otra,3.28,377.0,3.65,2,si,si,si,si
+352,16.0,M,Santa Marta,2.94,316.0,2.22,2,si,si,no,si
+353,31.0,M,Cartagena,3.27,395.0,3.38,4,si,no,no,no
+354,22.0,M,Barranquilla,3.53,285.0,3.4,1,no,no,si,si
+355,20.0,F,Cartagena,3.23,488.0,3.85,1,no,no,no,si
+356,18.0,M,Cartagena,3.22,280.0,5.0,3,si,si,si,no
+357,27.0,M,Otra,2.78,351.0,3.31,1,si,no,si,no
+358,31.0,M,Barranquilla,2.8,260.0,2.59,4,si,si,no,si
+359,34.0,F,Barranquilla,2.36,260.0,2.98,3,no,si,si,no
+360,20.0,M,Barranquilla,4.25,227.0,1.58,3,si,si,si,si
+361,29.0,M,Barranquilla,2.45,242.0,2.44,2,si,no,si,si
+362,20.0,F,Barranquilla,2.78,368.0,2.67,2,no,no,si,si
+363,30.0,M,Otra,2.77,285.0,2.58,1,no,no,si,si
+364,32.0,F,Santa Marta,3.74,376.0,3.12,3,si,si,si,no
+365,29.0,F,Cartagena,3.02,216.0,2.34,2,no,si,no,si
+366,20.0,F,Barranquilla,3.95,297.0,3.9,4,si,no,si,no
+367,27.0,F,Santa Marta,2.8,397.0,3.0,2,no,si,no,si
+368,31.0,F,Santa Marta,3.37,297.0,2.99,2,si,si,no,si
+369,31.0,M,Cartagena,2.7,264.0,2.74,3,si,no,si,si
+370,22.0,F,Otra,4.49,204.0,3.12,3,si,no,no,si
+371,19.0,F,Monteria,2.49,201.0,3.66,5,si,no,no,si
+372,16.0,M,Monteria,3.39,221.0,2.31,4,no,si,si,si
+373,20.0,F,Santa Marta,3.58,,2.47,3,no,si,si,si
+374,25.0,M,Cartagena,3.45,,2.76,1,no,si,si,si
+375,20.0,M,Monteria,3.09,265.0,1.92,4,no,si,no,si
+376,19.0,M,Santa Marta,3.12,297.0,2.34,4,si,si,no,si
+377,17.0,F,Otra,3.23,343.0,2.62,3,si,no,si,no
+378,25.0,F,Monteria,3.11,324.0,3.7,4,no,si,si,si
+379,34.0,F,Santa Marta,3.78,700.0,3.21,3,no,si,no,no
+380,16.0,M,Santa Marta,4.53,80.0,3.15,2,no,si,no,si
+381,20.0,F,Barranquilla,2.87,275.0,3.68,5,no,no,no,si
+382,28.0,F,Otra,2.38,493.0,2.89,2,no,no,no,si
+383,19.0,F,Barranquilla,3.15,258.0,3.31,3,si,no,si,no
+384,31.0,M,Cartagena,4.75,337.0,2.92,3,si,si,no,si
+385,31.0,M,Barranquilla,2.72,298.0,3.21,2,si,no,no,si
+386,17.0,F,Barranquilla,4.18,391.0,2.53,1,no,no,no,si
+387,32.0,F,Monteria,4.21,442.0,1.05,1,no,no,no,si
+388,27.0,F,Santa Marta,2.87,248.0,2.89,1,no,si,si,si
+389,33.0,F,Otra,3.54,231.0,4.14,3,no,no,si,no
+390,18.0,M,Barranquilla,4.18,476.0,3.74,4,si,si,no,no
+391,16.0,M,Otra,2.97,219.0,3.77,3,si,si,no,si
+392,16.0,M,Barranquilla,3.08,353.0,3.99,4,no,no,si,si
+393,34.0,M,Cartagena,2.85,267.0,3.07,2,si,si,si,no
+394,26.0,F,Barranquilla,2.59,413.0,3.16,5,si,no,no,no
+395,20.0,F,Monteria,2.81,342.0,2.51,4,no,si,no,no
+396,27.0,F,Santa Marta,2.47,431.0,2.75,1,no,no,si,si
+397,18.0,M,Cartagena,3.22,412.0,3.49,3,no,no,si,no
+398,16.0,F,Barranquilla,2.74,278.0,3.96,2,no,no,si,si
+399,16.0,M,Otra,,413.0,2.89,1,no,si,si,si
+400,23.0,M,Cartagena,2.27,315.0,2.64,2,no,no,si,si
+401,25.0,F,Cartagena,3.4,291.0,3.0,5,si,si,si,no
+402,26.0,F,Barranquilla,3.7,469.0,3.48,3,si,no,no,si
+403,27.0,F,Cartagena,2.0,367.0,1.84,3,no,si,si,si
+404,28.0,M,Otra,3.42,257.0,1.16,5,si,si,si,no
+405,27.0,F,Cartagena,3.94,483.0,2.56,3,no,no,si,no
+406,29.0,M,Otra,2.47,225.0,2.02,4,no,no,si,si
+407,17.0,F,Barranquilla,4.2,265.0,2.59,2,no,no,no,si
+408,34.0,M,Santa Marta,3.45,447.0,2.88,1,no,no,no,si
+409,33.0,M,Cartagena,2.78,453.0,2.64,5,si,no,si,no
+410,18.0,F,Santa Marta,3.17,243.0,4.16,4,no,si,no,si
+411,32.0,M,Otra,3.53,296.0,3.26,1,si,no,no,no
+412,23.0,M,Cartagena,3.25,,3.24,1,no,no,no,si
+413,25.0,F,Monteria,3.52,426.0,3.5,5,no,si,no,si
+414,17.0,M,Santa Marta,2.65,461.0,2.09,4,no,no,no,si
+415,34.0,F,Cartagena,3.3,366.0,3.83,1,si,no,no,no
+416,24.0,M,Santa Marta,2.35,478.0,2.94,1,no,si,si,si
+417,22.0,F,Cartagena,3.13,288.0,3.54,4,no,no,si,si
+418,19.0,F,Barranquilla,2.66,377.0,2.14,3,no,no,si,no
+419,33.0,M,Santa Marta,2.76,396.0,1.76,1,si,no,si,si
+420,28.0,M,Monteria,3.94,466.0,3.65,2,si,si,si,no
+421,26.0,M,Monteria,3.85,467.0,3.3,4,si,no,no,si
+422,,M,Otra,3.57,273.0,2.28,1,no,si,si,si
+423,19.0,M,Cartagena,2.54,207.0,2.3,5,si,no,si,no
+424,25.0,F,Santa Marta,3.01,496.0,3.9,2,no,si,no,si
+425,20.0,M,Otra,3.93,363.0,2.05,1,si,no,no,no
+426,24.0,F,Santa Marta,3.29,284.0,4.31,2,si,si,si,si
+427,18.0,F,Cartagena,4.59,271.0,2.28,2,no,si,no,si
+428,32.0,M,Monteria,3.44,254.0,3.51,3,si,si,no,no
+429,18.0,F,Barranquilla,3.32,246.0,2.74,2,no,si,no,si
+430,31.0,F,Monteria,3.01,437.0,3.48,3,no,si,no,no
+431,19.0,F,Otra,3.28,303.0,2.56,4,si,si,si,si
+432,33.0,F,Barranquilla,3.11,409.0,2.87,3,no,no,no,si
+433,32.0,M,Otra,3.62,241.0,,5,no,no,si,si
+434,22.0,F,Cartagena,,467.0,2.2,1,si,si,si,si
+435,20.0,M,Barranquilla,2.73,462.0,3.59,4,si,si,no,no
+436,27.0,M,Otra,2.4,458.0,2.59,4,no,si,no,no
+437,32.0,F,Cartagena,2.1,482.0,2.82,5,si,si,no,no
+438,28.0,M,Monteria,3.5,313.0,2.2,3,no,no,si,no
+439,18.0,M,Cartagena,2.54,239.0,0.95,1,no,si,no,si
+440,24.0,M,Santa Marta,1.91,419.0,2.85,3,si,no,no,no
+441,32.0,F,Cartagena,3.43,328.0,4.93,2,si,no,no,si
+442,32.0,M,Cartagena,4.7,207.0,3.63,3,si,si,no,si
+443,31.0,M,Santa Marta,3.2,300.0,2.98,4,si,si,no,no
+444,28.0,M,Otra,3.7,375.0,2.79,1,no,no,si,si
+445,34.0,F,Otra,3.25,306.0,3.02,3,no,no,no,si
+446,32.0,M,Cartagena,3.14,300.0,3.44,1,si,si,no,no
+447,19.0,F,Santa Marta,3.75,459.0,2.06,1,si,si,no,si
+448,27.0,F,Santa Marta,3.03,445.0,3.89,2,no,si,si,si
+449,24.0,F,Monteria,3.36,474.0,3.57,2,no,no,no,si
+450,34.0,F,Otra,3.39,,3.57,4,no,no,si,si
+451,27.0,F,Barranquilla,2.8,336.0,3.35,5,no,si,si,no
+452,,F,Otra,3.8,211.0,3.02,1,si,no,no,si
+453,22.0,M,Otra,3.1,215.0,3.54,5,no,no,no,si
+454,29.0,F,Monteria,2.75,328.0,3.47,4,no,si,no,si
+455,34.0,M,Barranquilla,3.52,262.0,2.72,1,si,si,si,si
+456,30.0,M,Monteria,2.66,308.0,2.54,1,no,no,si,si
+457,31.0,F,Barranquilla,3.22,220.0,3.08,5,no,no,si,no
+458,20.0,M,Cartagena,3.19,357.0,4.24,3,si,si,si,no
+459,18.0,M,Barranquilla,3.85,468.0,2.01,2,si,si,si,no
+460,27.0,M,Monteria,3.48,361.0,1.83,3,si,si,si,no
+461,19.0,M,Otra,3.18,459.0,3.13,5,no,si,no,no
+462,31.0,F,Barranquilla,3.69,301.0,3.04,2,no,si,no,si
+463,22.0,M,Barranquilla,4.03,422.0,3.14,3,si,no,si,no
+464,28.0,F,Santa Marta,3.53,258.0,3.2,2,si,no,no,si
+465,25.0,M,Otra,3.21,446.0,2.82,1,no,no,no,si
+466,22.0,M,Cartagena,2.41,327.0,,3,si,no,si,no
+467,29.0,F,Monteria,2.56,482.0,,2,si,si,si,no
+468,20.0,M,Cartagena,3.02,224.0,2.34,2,si,si,no,si
+469,18.0,M,Otra,2.83,330.0,2.92,2,no,si,si,no
+470,26.0,M,Barranquilla,3.09,395.0,1.69,3,no,no,si,si
+471,26.0,F,Barranquilla,3.23,480.0,2.86,4,no,no,no,no
+472,33.0,M,Otra,3.52,353.0,4.33,3,no,no,si,no
+473,30.0,F,Barranquilla,3.16,332.0,3.02,5,no,si,no,no
+474,27.0,M,Barranquilla,3.49,426.0,3.18,3,no,no,no,si
+475,24.0,F,Barranquilla,3.24,388.0,1.99,2,si,si,no,si
+476,25.0,F,Monteria,2.01,464.0,2.51,1,no,si,no,si
+477,27.0,M,Monteria,2.64,333.0,2.7,3,no,si,no,si
+478,32.0,M,Santa Marta,3.11,410.0,2.75,3,si,si,si,si
+479,21.0,F,Cartagena,2.47,259.0,4.03,2,no,si,si,si
+480,22.0,F,Otra,3.56,412.0,3.45,1,no,si,si,no
+481,29.0,M,Otra,4.12,415.0,2.11,1,si,no,si,no
+482,28.0,F,Otra,,425.0,3.2,5,si,si,no,si
+483,23.0,M,Santa Marta,3.07,330.0,3.4,3,si,si,no,si
+484,25.0,M,Monteria,4.09,275.0,3.91,1,no,no,si,si
+485,24.0,M,Santa Marta,3.29,485.0,4.26,1,si,si,no,no
+486,33.0,M,Otra,3.0,476.0,2.19,4,no,no,si,no
+487,17.0,F,Cartagena,2.83,355.0,2.35,4,no,no,si,no
+488,20.0,M,Barranquilla,3.02,447.0,1.99,1,no,no,si,no
+489,20.0,F,Monteria,2.97,417.0,,5,no,si,no,no
+490,21.0,M,Monteria,3.3,389.0,3.37,1,si,si,no,si
+491,34.0,F,Santa Marta,3.3,362.0,3.79,2,si,no,no,si
+492,23.0,M,Monteria,3.2,379.0,2.94,3,no,si,no,no
+493,31.0,F,Otra,3.46,233.0,2.74,5,si,si,si,si
+494,28.0,F,Otra,3.91,240.0,3.12,2,no,no,no,si
+495,16.0,M,Santa Marta,3.77,274.0,2.33,5,no,no,no,no
+496,32.0,M,Otra,2.31,478.0,4.67,2,no,si,no,no
+497,22.0,M,Cartagena,1.67,375.0,1.71,3,si,no,si,no
+498,28.0,M,Santa Marta,3.76,349.0,3.15,3,no,no,si,no
+499,19.0,F,Cartagena,2.38,472.0,4.62,4,no,no,no,no
+500,19.0,M,Barranquilla,3.07,307.0,3.01,2,si,si,no,si
